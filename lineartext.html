@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <style type="text/css">
+            #data{
+                
+                height: 200px;
+                width: 400px;
+                text-transform: uppercase;
+                text-align: center;
+                margin: 100px;
+                background: linear-gradient(to right,red,green,blue);
+                line-height: 200px;
+                font-size: 100px;
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                animation-name: pune;
+                animation-duration: 10s;
+                position: relative;
+                animation-iteration-count: infinite;
+               
+            }
+            @keyframes pune{
+                from{
+                      background-position: 100px;
+                      width: 0px; 
+                      left: 0px;
+                        
+                }
+                to{
+                     background-position: 400px; 
+                     width: 400px;
+                     left: 300px;
+                       
+                }
+            }
+
+
+    </style>
+
+</head>
+<body>
+        <div id="data">Pune</div>
+
+</body>
+</html>
